@@ -1,0 +1,44 @@
+ /* header'ın içindekileri alt alta getirdim ve ortaladım */
+ header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ h1,h2{
+    color:rgb(149, 53, 194) ;
+     
+}
+ nav ul li{
+    display: inline;   /* Link'lerin yan yana gelmesi için inline kullandım.*/
+    text-decoration: none;
+    padding: 5px;
+   margin-right: 25px;
+   background-color:#20a2d8;
+   border-radius: 5px;
+   
+}
+/* Link için renk verdim */
+nav ul li a{   
+    color:#f8e5af;
+}
+article,section{
+    text-align: center;
+}
+section ul li, section ol li{
+    list-style-position: inside   /*  noktaları ve sayıları yazılarının yanına gelsin diye yaptım*/
+}
+h3{
+    color: #20a2d8;
+}
+footer{
+     display: flex;
+   justify-content: center;
+     align-items: end;
+}
+
+/* ürünler sayfası için resim boyutlarını ayarlama */
+img{
+    width: 300px;
+}
+
